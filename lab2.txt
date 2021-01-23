@@ -1,6 +1,0 @@
-Q1.Make a socket using the line of code "new_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)";and then connect to the google host with proper host and port using the line "new_sock.connect((host, port))" in the main function.
-Q2.Client socket is created to call connect() method to connect its IP address and port to a server; server socket is created to call bind() method to bind its host address and port and call listen() method to listen for a connection.
-Q3. SO_REUSEADDR inside setsockopt method allows the system to reuse the identical bind port because with it, every time as the program runs, it always gets the same local bind port.
-Q4.It outputs the IP address and the port number
-Q5.It returns data with 0 bytes.
-Q6.https://github.com/xuhf0429/CMPUT404-lab2
